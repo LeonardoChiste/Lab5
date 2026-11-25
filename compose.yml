@@ -1,7 +1,7 @@
 services:
     app:
         # TODO: Change the image to your own image
-        image: ghcr.io/LeonardoChiste/Lab5/app:v1.0.0
+        image: ghcr.io/leonardochiste/lab5/app:v1.0.0
         container_name: github-action-app
         ports:
         - "5000:5000"
